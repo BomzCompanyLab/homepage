@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, header {
+  font-family: 'NanumSquareRound', 'sans-serif';
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+h1 {  font-size: 34px; margin: 16px 0px; }
+h2 {  font-size: 24px; margin: 10px 0px; }
+h3 {  font-size: 18px; margin: 6px 0px; }
+h4 {  font-size: 14px; margin: 4px 0px; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+body {
+  margin-top: 70px;
+  border-top: 10px solid #000;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+header nav a:not(:last-child){
+  margin-right: 50px;
+}
+
+header button.bombora-link{
+  background-color: #9966CC;
+  height: 40px;
+  border: 0px;
+  color: #fff;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding-left: 22px;
+  padding-right: 22px;
+  cursor: pointer;
+}
+
+main {
+  padding-top: 120px;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.w40p{  width: 40%; }
+.w50p{  width: 50%; }
+.w60p{  width: 60%; }
+
+.text-right{
+  text-align: right;
+}
+
+main .box{
+  width: 1500px;
+  margin: 0px auto;
+}
+
+main .step1 article:first-child .content{
+  margin-top: 120px;
+  display: flex;
+}
+
+main .step1 article:first-child .content section{
+  display: flex;
+}
+
+main .step1 article:first-child .content section img{
+  width: 36px;
+  height: 36px;
+}
+
+main .step1 article:first-child .content section div.desc{
+  width: 150px;
+  height: 36px;
+  margin-left: 8px;
+}
+
+main .step1 article:first-child .content section div.desc div.desc-title{
+  font-size: 14px;
+}
+
+main .step1 article:first-child .content section div.desc div.desc-sub{
+  font-size: 12px;
+}
+
+main .step1 article:last-child{
+  margin-top: 80px;
+}
+
+main .step2 {
+  margin-top: 80px;
+}
+
+main .step2 article.line:first-child{
+  background: linear-gradient(2deg, #bc93e5 50%, #fff 51%);
+  height: 140px;
+}
+
+main .step2 article.content{
+  background-color : #bc93e5;
+  padding: 120px 0px;
+  height: 50px;
+}
+
+main .step2 article.line:last-child{
+  background: linear-gradient(2deg, #fff 50%, #bc93e5 51%);
+  height: 140px;
+}
+
+main .step3 section.step3-1 article.board{
+  margin-top: 90px;  
+  width: 314px;
+}
+
+main .step3 section.step3-1 article.board div.img{
+  background-color: #fff;
+  border: 2px solid #000;
+  margin-bottom: 40px;
+}
+
+main .step3 section.step3-1 article.board:first-child div.img{
+  border-radius: 14px 0px 0px 14px;
+}
+
+main .step3 section.step3-1 article.board:last-child div.img{
+  border-radius: 0px 14px 14px 0px;
+}
+
+main .step3 section.step3-1 article.board:nth-child(2){
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+main .step3 section.step3-1 article.board h4.desc{
+  margin-top: 20px;
+  line-height: 180%;
+}
+
+main .step3 section.step3-2 {
+  margin-top: 160px;
+}
+
+main .step3 section.step3-2 article.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 180px;
+}
