@@ -1,0 +1,48 @@
+div.plc .step1 {
+    margin-top: 120px;
+    text-align: left;
+}
+
+div.plc .step2 article {
+    background-color: #71c0f6;
+}
+
+div.plc .step2 article.line:first-child{
+    background: linear-gradient(-2deg, #71c0f6 50%, #fff 51%);
+    height: 140px;
+}
+
+div.plc .step2 .pre{
+    padding: 100px 0px;
+}
+
+div.plc .step2 .pre h2{
+    margin-top: 40px;
+}
+
+div.plc .step2 .pre .sub1{
+    margin-left: 20px;
+}
+
+div.plc .step2 .pre .sub2{
+    margin-left: 36px;
+}
+
+div.plc .step2 .pre h4:first-child{
+    margin-top: 0px;
+}
+
+div.plc .step2 .pre h4:last-child{
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1500px){
+
+    div.plc .step1 {
+        margin-top: 70px;
+    }
+
+    div.plc .step1 h1.title {
+        font-size: 22px;
+    }
+}

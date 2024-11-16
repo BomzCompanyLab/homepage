@@ -1,0 +1,104 @@
+div.prc .step1 {
+    margin-top: 120px;
+    text-align: center;
+}
+
+div.prc .step1 h1.title {
+    font-size: 60px;
+}
+
+div.prc .step2 .flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+div.prc .step2 article.line:first-child{
+    height: 140px;
+    margin-top: 100px;
+}
+
+div.prc .step2 .price-plan{
+    width: 30%;
+}
+
+div.prc .step2 .price-plan section{
+    width: 100%;
+}
+
+div.prc .step2 .price-plan article.price{
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #000;
+    border-bottom: 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+div.prc .step2 .price-plan article.free{
+    background-color: #bc93e5;
+}
+
+div.prc .step2 .price-plan article.standard{
+    background-color: #e3c714;
+}
+
+div.prc .step2 .price-plan article.premium{
+    background-color: #71c0f6;
+}
+
+div.prc .step2 .price-plan article.price h1.money{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.prc .step2 .price-plan article.details{
+    margin-top: 0px;
+    border: 1px solid #000;
+    border-radius: 0px 0px 10px 10px;
+    height: 450px;
+}
+
+div.prc .step2 .price-plan article.details ul{
+    list-style-type: '>';
+}
+
+div.prc .step2 .price-plan article.details ul li.sub{
+    margin-left: 24px
+}
+
+div.prc .step2 .price-plan article.details ul li h4{
+    line-height: 300%;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 1500px){
+    div.prc .step1 {
+        margin-top: 70px;
+    }
+
+    div.prc .step1 h1.title {
+        font-size: 22px;
+    }
+
+    div.prc .step2 .flex-between{
+        display: block;
+      }
+
+    div.prc .step2 .price-plan{
+        width: 100%;
+    }
+
+    div.prc .step2 .price-plan:not(:last-child){
+        margin-bottom: 60px;
+    }
+
+    div.prc .step2 .price-plan article.price{
+        height: auto;
+    }
+
+    div.prc .step2 .price-plan article.details{
+        height: auto;
+    }
+}

@@ -1,0 +1,247 @@
+div.main {
+  padding-top: 120px;
+}
+
+div.main  .step{
+  margin-top: 80px;
+}
+
+div.main div.summery {
+  margin-top: 40px;
+  display: flex;
+}
+
+div.main div.summery section{
+  display: flex;
+}
+
+div.main div.summery section:not(:first-child){
+  margin-left: 60px;
+}
+
+div.main div.summery section article{
+  margin-left: 12px;
+}
+
+div.main div.summery section h4{
+  line-height: 85%;
+}
+
+div.main .step1 div.summery{
+  margin-top: 80px;
+}
+
+div.main .step1 img.agile{
+  width: 100%;
+}
+
+div.main .step2 article.line:first-child{
+  background: linear-gradient(2deg, #bc93e5 50%, #fff 51%);
+  height: 140px;
+}
+
+div.main .step2 article.content{
+  background-color : #bc93e5;
+  padding: 120px 0px;
+}
+
+div.main .step2 article.line:last-child{
+  background: linear-gradient(2deg, #fff 50%, #bc93e5 51%);
+  height: 140px;
+}
+
+div.main .step3 section.step3-1 article.board{
+  margin-top: 90px;  
+  width: 314px;
+}
+
+div.main .step3 section.step3-1 article.board div.img{
+  background-color: #fff;
+  border: 2px solid #000;
+  margin-bottom: 40px;
+}
+
+div.main .step3 section.step3-1 article.board:first-child div.img{
+  border-radius: 14px 0px 0px 14px;
+}
+
+div.main .step3 section.step3-1 article.board:last-child div.img{
+  border-radius: 0px 14px 14px 0px;
+}
+
+div.main .step3 section.step3-1 article.board:nth-child(2){
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+div.main .step3 section.step3-1 article.board h4.desc{
+  margin-top: 20px;
+}
+
+div.main .step3 section.step3-2 {
+  margin-top: 160px;
+}
+
+div.main .step3 section.step3-2 article.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 180px;
+}
+
+div.main .step3 section.step3-2 div:not(.summery , :first-child) {
+  margin-top: 22px;
+}
+
+div.main .step4 article.line:first-child{
+  background: linear-gradient(-2deg, #e3c714 50%, #fff 51%);
+  height: 140px;
+}
+
+div.main .step4 article.content{
+  background-color : #e3c714;
+  padding: 120px 0px;
+}
+
+div.main .step4 article.content section.icons{
+  margin: 110px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+div.main .step5{
+  margin-top : 180px;
+}
+
+div.main .step5 div.price-plan{
+  width: 50%;
+}
+
+div.main .step5 div.price-plan section{
+  width: 100%;
+}
+
+div.main .step5 div.price-plan section.price{
+  height: 160px;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #000;
+  border-bottom: 0px;
+  background-color: #71c0f6;
+  color: #000;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+div.main .step5 div.price-plan section.price h1.money{
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+div.main .step5 div.price-plan section.details{
+  margin-top: 0px;
+  height: 40%;
+  border: 1px solid #000;
+  border-radius: 0px 0px 10px 10px;
+}
+
+div.main .step5 div.price-plan section.details ul{
+  list-style-type: '>';
+}
+
+div.main .step5 div.price-plan section.details ul li h4{
+  line-height: 220%;
+  margin-left: 10px;
+}
+
+
+@media (max-width: 1500px){
+  img:not(.summery) { width: 100%; }
+
+  div.main { padding-top: 0px; }
+
+  div.main .step{ margin-top: 40px; }
+
+  div.main div.summery {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .m-inline-flex{
+    display: inline-flex !important;
+    justify-content: space-around;
+  }
+
+  div.main div.summery h4{
+    text-align: left;
+    margin: 4px 0px;
+  }
+
+  div.main .step1 div.summery{
+    margin-top: 30px;
+    display: none;
+  }
+
+  div.main div.summery section{
+    margin: 16px 0px;
+  }
+
+  div.main div.summery section:not(:first-child){
+    margin-left: 0px;
+  }
+
+  div.main .step2 article.content{
+    padding: 20px 0px;
+  }
+
+  div.main .step3 section.step3-1 article.board{
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  div.main .step3 section.step3-1 article.board h4.desc{
+    margin-top: 10px;
+  }
+
+  div.main .step3 section.step3-1 article.board div.img{
+    margin-bottom: 20px;
+  }
+
+  div.main .step3 section.step3-1 article.board:nth-child(2){
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  div.main .step3 section.step3-2 article.board{
+    margin-left: 0px;
+  }
+
+  div.main .step4 article.content{
+    padding: 40px 0px;
+  }
+
+  div.main .step4 article.content section.icons{
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+
+  div.main .step4 article.content section.icons img{
+    margin: 10px 0px;
+  }
+
+  .m-mt60{
+    margin-top: 60px !important;
+  }
+
+  .m-mb40{
+    margin-bottom: 40px !important;
+  }
+ 
+  div.main .step5 div.price-plan{
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  div.main .step5 div.price-plan section.details ul li h4{
+    text-align: left;
+  }
+}

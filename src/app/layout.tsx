@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./css/globals.css";
 import Header from "./header";
 import Footer from "./footer";
-
 
 export const metadata: Metadata = {
   title: "BOMZ",
@@ -12,6 +11,9 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
   return (
     <html lang="kr">
+      <head>
+        <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet"></link>
+      </head>
       <body>
         <Header />
         <main>

@@ -2,17 +2,18 @@ import React from 'react';
 import Link from "next/link";
 
 import menus from "./menus";
+import './css/header.css';
 
 const Header = ()=>{
-    return <header>
+    return <header >
         <h1>
             <Link href="/">Bomz</Link>
         </h1>
         <nav>
-            { menus.map(mn=><Link key={mn.url} href={mn.url}>{mn.name_ko}</Link>)}
+            { menus.filter(mn=>mn.header).map(mn=><Link key={mn.url} href={mn.url}>{mn.name_ko}</Link>)}
             
-            <Link href="https://bora.bomz.app" target="_blank">
-                <button className="bombora-link">봄보라 이용하기</button>
+            <Link href="https://bora.bomz.app" target="_blank" className="m-hide">
+                <button className="bombora-link" style={{marginTop:'0px'}}>봄보라 이용하기</button>
             </Link>
         </nav>
     </header>
