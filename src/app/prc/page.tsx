@@ -22,13 +22,14 @@ const Pricing = () =>{
 
                         <article className="details">
                             <ul>
-                                <li><h4>무제한 프로젝트 생성 관리</h4></li>
+                                <li><h4>프로젝트 최대 5개 (베타서비스 중 무제한)</h4></li>
                                 <li><h4>사용자 계정 최대 10개</h4></li>
                                 <li><h4>계정별 권한 관리</h4></li>
                                 <li><h4>부서 정보 최대 50개</h4></li>
                                 <li><h4>직책 정보 최대 30개</h4></li>
-                                <li><h4>이벤트 알림 설정 이메일 + 메신저 최대 1개</h4></li>
+                                <li><h4>이벤트 알림 이메일 + 메신저</h4></li>
                                 <li><h4>첨부파일 최대 100MB</h4></li>
+                                <li><h4>이력 조회</h4></li>
                             </ul>
                         </article>
                     </section>
@@ -36,22 +37,21 @@ const Pricing = () =>{
                     <section className="price-plan">
                         <article className="price standard">
                             <h1>기본</h1>
-                            <h3>보안 및 처리 이력 관리 강화</h3>
-                            <div><h1 className="money">₩ 8,000</h1><span>사용자 계정 최대 25개</span></div>
+                            <h3>보안 강화 및 프로젝트 수 제한 해제</h3>
+                            <div><h1 className="money">₩ 9,000</h1></div>
                             <h4>사용자/월 기준</h4>
                         </article>
 
                         <article className="details">
                             <ul>
+                                <li><h4>무제한 프로젝트</h4></li>
                                 <li><h4>사용자 계정 최대 1,000개</h4></li>
                                 <li><h4>부서 정보 최대 100개</h4></li>
                                 <li><h4>직책 정보 최대 200개</h4></li>
-                                <li><h4>이벤트 알림 설정 무제한</h4></li>
                                 <li><h4>첨부파일 최대 100GB</h4></li>
                                 <li><h4>보안 기능</h4></li>
                                 <li className="sub"><h4>접속 IP 제한</h4></li>
                                 <li className="sub"><h4>2단계 인증</h4></li>
-                                <li><h4>이력 조회</h4></li>
                             </ul>
                         </article>
                     </section>
@@ -66,7 +66,7 @@ const Pricing = () =>{
 
                         <article className="details">
                             <ul>
-                                <li><h4>사용자 계정 최대 30,000개</h4></li>
+                                <li><h4>사용자 계정 무제한</h4></li>
                                 <li><h4>부서 정보 최대 1,000개</h4></li>
                                 <li><h4>직책 정보 최대 800개</h4></li>
                                 <li><h4>첨부파일 최대 400GB</h4></li>
