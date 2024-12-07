@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   creator: "BOMZ Company",
   robots: "index, nofollow",
   keywords: "bomz, bombora, kanban, agile, scrum, backlog, 봄즈, 봄보라, 칸반, 애자일, 스크럼, 백로그",
-  icons: { icon: "/images/icon.png", apple: "/images/icon.png"}
+  icons: { icon: "/images/favicon.png", apple: "/images/favicon.png"}
 };
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {

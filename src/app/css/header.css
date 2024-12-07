@@ -6,6 +6,11 @@ header {
   align-items: center; 
 }
 
+header img.logo{
+  width: 28px;
+  height: 28px;
+}
+
 header nav a:not(:last-child){
   margin-right: 50px;
 }
@@ -27,6 +32,11 @@ header button.bombora-link{
     width: calc(100% - 16px);
     padding: 0px;
     margin: 0px 8px;
+  }
+
+  header img.logo{
+    width: 16px;
+    height: 16px;
   }
 
   header nav a:not(:last-child){

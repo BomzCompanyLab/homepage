@@ -7,7 +7,7 @@ import './css/header.css';
 const Header = ()=>{
     return <header >
         <h1>
-            <Link href="/">Bomz</Link>
+            <Link href="/"><img src="/images/logo.png" className="logo" title="BOMZ"/> Bomz</Link>
         </h1>
         <nav>
             { menus.filter(mn=>mn.header).map(mn=><Link key={mn.url} href={mn.url}>{mn.name_ko}</Link>)}
