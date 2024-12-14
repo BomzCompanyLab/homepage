@@ -198,6 +198,7 @@ const MainPage = () => {
               <section className="details">
                 <ul>
                   <li><h4>프로젝트 최대 5개 (베타 서비스 중 무제한)</h4></li>
+                  <li><h4>스크럼, 칸반, 버퍼</h4></li>
                   <li><h4>사용자 계정 최대 10개</h4></li>
                   <li><h4>계정별 권한 관리</h4></li>
                   <li><h4>부서 정보 최대 50개</h4></li>
