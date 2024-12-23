@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import menus from "./app/menus";
 
-export default async function middleware (req: NextRequest, res:NextResponse) {
+export default async function middleware (req: NextRequest) {
     const url = req.nextUrl.pathname;
 
     if( url === '/')    return;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from "next/link";
+import Image from "next/image";
 
 import menus from "./menus";
 import './css/header.css';
@@ -7,7 +8,7 @@ import './css/header.css';
 const Header = ()=>{
     return <header >
         <h1>
-            <Link href="/"><img src="/images/logo.png" className="logo" title="BOMZ"/> Bomz</Link>
+            <Link href="/"><Image src="/images/logo.png" className="logo" alt="BOMZ" title="BOMZ"/> Bomz</Link>
         </h1>
         <nav>
             { menus.filter(mn=>mn.header).map(mn=><Link key={mn.url} href={mn.url}>{mn.name_ko}</Link>)}

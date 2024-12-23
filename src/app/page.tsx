@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 import menus from "./menus";
 import './css/main.css';
 
@@ -21,7 +23,7 @@ const MainPage = () => {
 
             <div className="summery">
               <section>
-                <img src="/images/main_scrum_icon.png" className="summery" />
+                <Image src="/images/main_scrum_icon.png" className="summery" alt="SCRUM" title="SCRUM"/>
                 <article>
                   <h4>SCRUM</h4>
                   <h4>점진적 개발방법론</h4>
@@ -29,7 +31,7 @@ const MainPage = () => {
               </section>
 
               <section>
-                <img src="/images/main_kanban_icon.png" className="summery" />
+                <Image src="/images/main_kanban_icon.png" className="summery" alt="KANBAN" title="KANBAN"/>
                 <article>
                   <h4>KANBAN</h4>
                   <h4>칸반보드 업무 시각화</h4>
@@ -37,7 +39,7 @@ const MainPage = () => {
               </section>
 
               <section>
-                <img src="/images/main_buffer_icon.png" className="summery" />
+                <Image src="/images/main_buffer_icon.png" className="summery" alt="BUFFER" title="BUFFER"/>
                 <article>
                   <h4>BUFFER</h4>
                   <h4>단순한 업무 분담</h4>
@@ -46,7 +48,7 @@ const MainPage = () => {
             </div>
           </article>
           <article className="w50p">
-            <img src="/images/main_agile.png" className="agile"/>
+            <Image src="/images/main_agile.png" className="agile" alt="AGILE" title="AGILE"/>
           </article>
         </div>
       </section>
@@ -82,7 +84,7 @@ const MainPage = () => {
           <section className="flex-start step3-1">
             <article className="board">
               <div className="img">
-                <img src="/images/main_board_1.png"/>
+                <Image src="/images/main_board_1.png" alt="BOARD1" title="BOARD1"/>
               </div>
               <h3>단순 구조 보드</h3>
               <h4 className="desc">일반적으로 많이 사용하는 기본 형태의 보드로 가로열을 업무 진행 단위별로 구분하여 진행상황을 표시하는 보드 형태</h4>
@@ -90,7 +92,7 @@ const MainPage = () => {
 
             <article className="board">
               <div className="img">
-                <img src="/images/main_board_2.png"/>
+                <Image src="/images/main_board_2.png" alt="BOARD2" title="BOARD2"/>
               </div>
               <h3>2단 구조 보드</h3>
               <h4 className="desc">진행 단위별로 세로열을 세분화하여 하나 이상의 진행단계를 담당자 및 이벤트 또는 진행하는 팀의 목적에 맞게 분리하여 표시하는 보드 형태</h4>
@@ -98,7 +100,7 @@ const MainPage = () => {
 
             <article className="board">
               <div className="img">
-                <img src="/images/main_board_3.png"/>
+                <Image src="/images/main_board_3.png" alt="BOARD3" title="BOARD3"/>
               </div>
               <h3>3단 구조 보드</h3>
               <h4 className="desc">진행 단위별로 세로열을 세분화한 후 또 다시 각각의 항목을 목적에 맞게 분리하여 구성한 고급 사용자를 위한 보드 형태</h4>
@@ -106,7 +108,7 @@ const MainPage = () => {
           </section>
 
           <section className="flex-start step3-2" style={{marginTop:"160px"}}>
-            <img src="/images/main_str.png" />
+            <Image src="/images/main_str.png" alt="BOMBORA Structure" title="BOMBORA Structure"/>
             <article className="board">
               <div>
                 <h1>애자일 프로젝트 관리를 위한 봄보라.</h1>
@@ -122,14 +124,14 @@ const MainPage = () => {
               </div>
               <div className="summery m-inline-flex">
                 <section>
-                  <img src="/images/main_custom.png" className="summery"/>
+                  <Image src="/images/main_custom.png" className="summery" alt="Custom Board" title="Custom Board"/>
                   <article>
                     <h4>프로젝트별</h4>
                     <h4>맞춤 보드</h4>
                   </article>
                 </section>
                 <section>
-                  <img src="/images/main_messenger.png" className="summery"/>
+                  <Image src="/images/main_messenger.png" className="summery" alt="Event Push" title="Event Push"/>
                   <article>
                     <h4>이벤트 발생 시</h4>
                     <h4>담당자 알림</h4>
@@ -150,20 +152,20 @@ const MainPage = () => {
             <h3>각각의 업무 카드별로 이슈를 추가할 수 있고 의견을 등록할 수도 있어요</h3>
             <h3>모든 업무의 처리 현황은 이력이 저장되어 언제든 확인할 수 있습니다</h3>
             <section className="icons m-mt60">
-              <img src="/images/main_step4_icon1.png" className="summery" />
-              <img src="/images/main_step4_icon2.png" className="summery" />
-              <img src="/images/main_step4_icon3.png" className="summery" />
-              <img src="/images/main_step4_icon4.png" className="summery" />
-              <img src="/images/main_step4_icon5.png" className="summery" />
-              <img src="/images/main_step4_icon6.png" className="summery" />
+              <Image src="/images/main_step4_icon1.png" className="summery" alt="BOMBORA Step4-1" title="BOMBORA Step4-1"/>
+              <Image src="/images/main_step4_icon2.png" className="summery" alt="BOMBORA Step4-2" title="BOMBORA Step4-2"/>
+              <Image src="/images/main_step4_icon3.png" className="summery" alt="BOMBORA Step4-3" title="BOMBORA Step4-3"/>
+              <Image src="/images/main_step4_icon4.png" className="summery" alt="BOMBORA Step4-4" title="BOMBORA Step4-4"/>
+              <Image src="/images/main_step4_icon5.png" className="summery" alt="BOMBORA Step4-5" title="BOMBORA Step4-5"/>
+              <Image src="/images/main_step4_icon6.png" className="summery" alt="BOMBORA Step4-6" title="BOMBORA Step4-6"/>
             </section>
             <section className="icons">            
-              <img src="/images/main_step4_icon7.png" className="summery" />
-              <img src="/images/main_step4_icon8.png" className="summery" />
-              <img src="/images/main_step4_icon9.png" className="summery" />
-              <img src="/images/main_step4_icon10.png" className="summery" />
-              <img src="/images/main_step4_icon11.png" className="summery" />
-              <img src="/images/main_step4_icon12.png" className="summery" />
+              <Image src="/images/main_step4_icon7.png" className="summery" alt="BOMBORA Step4-7" title="BOMBORA Step4-7"/>
+              <Image src="/images/main_step4_icon8.png" className="summery" alt="BOMBORA Step4-8" title="BOMBORA Step4-8"/>
+              <Image src="/images/main_step4_icon9.png" className="summery" alt="BOMBORA Step4-9" title="BOMBORA Step4-9"/>
+              <Image src="/images/main_step4_icon10.png" className="summery" alt="BOMBORA Step4-10" title="BOMBORA Step4-10"/>
+              <Image src="/images/main_step4_icon11.png" className="summery" alt="BOMBORA Step4-11" title="BOMBORA Step4-11"/>
+              <Image src="/images/main_step4_icon12.png" className="summery" alt="BOMBORA Step4-12" title="BOMBORA Step4-12"/>
             </section>
           </div>
         </article>
@@ -212,7 +214,7 @@ const MainPage = () => {
           </article>
         </div>
         <div className="box" style={{marginTop:'140px'}}>
-          <img src="/images/main_bottom.png" />
+          <Image src="/images/main_bottom.png" alt="BOMBORA Bottom" title="BOMBORA Bottom"/>
         </div>
       </section>
     </div>
