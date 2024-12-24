@@ -5,7 +5,7 @@ import Footer from "./footer";
 
 export const metadata: Metadata = {
   title: "BOMZ",
-  description: "애자일 팀을 위한 차별화된 칸반, 스크럼 등을 이용하여 조직의 소프트웨어 개발/운영을 진행하세요",
+  description: "애자일 팀을 위한 차별화된 스크럼, 칸반 등을 이용하여 조직의 소프트웨어 개발/운영을 진행하세요",
   applicationName: "봄보라 | BOMBora",
   authors: [{name: "BOMZ Company"}],
   creator: "BOMZ Company",
