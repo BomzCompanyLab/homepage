@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   authors: [{name: "BOMZ Company"}],
   creator: "BOMZ Company",
   robots: "index, nofollow",
-  keywords: "bomz, bombora, kanban, agile, scrum, backlog, 봄즈, 봄보라, 칸반, 애자일, 스크럼, 백로그",
+  keywords: "bomz, bombora, kanban, agile, scrum, backlog, 봄즈, 봄보라, 칸반, 애자일, 스크럼, 백로그, 칸반보드, 애자일보드",
   icons: { icon: "/favicon/favicon-16x16.png", apple: "/favicon/favicon-16x16.png"}
 };
 
