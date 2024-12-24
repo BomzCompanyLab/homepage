@@ -17,9 +17,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
   return (
     <html lang="kr">
-      <head>
-        <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet"></link>
-      </head>
+      <head></head>
       <body>
         <Header />
         <main>
