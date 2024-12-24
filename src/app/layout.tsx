@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./css/globals.css?v=20241224";
+import "./css/globals.css";
 import Header from "./header";
 import Footer from "./footer";
 
