@@ -32,7 +32,7 @@ const Footer = () => {
                     <h4 className="big m-block">고객센터</h4>
                 </div>
                 <div>
-                    <h1 className="big m-block">bom@bomz.app</h1>
+                    <h1 className="big m-block">cs@bomz.app</h1>
                 </div>
                 <div className="m-center m-top24">
                     <h4>
