@@ -10,7 +10,7 @@ import imgLogo from '/public/images/logo.png';
 const Header = ()=>{
     return <header >
         <h1>
-            <Link href="/"><Image src={imgLogo} className="logo" alt="BOMZ" title="BOMZ"/> Bomz</Link>
+            <Link href="/" style={{"display":"flex", "alignItems":"center"}}><Image src={imgLogo} className="logo" alt="BOMZ" title="BOMZ"/>Bomz</Link>
         </h1>
         <nav>
             { menus.filter(mn=>mn.header).map(mn=><Link key={mn.url} href={mn.url}>{mn.name_ko}</Link>)}
