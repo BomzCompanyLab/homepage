@@ -34,8 +34,16 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="msapplication-TileImage" content="https://www.bomz.app/favicon/ms-icon-144x144.png"/>
         <meta name="theme-color" content="#ffffff"/>
+
         {/* Naver search meta tag */}
         <meta name="naver-site-verification" content="08bcbb4c977c416b81096aa714885cd3b3fd38cc" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website"/> 
+        <meta property="og:title" content="BOMZ"/>
+        <meta property="og:description" content="애자일 팀을 위한 차별화된 스크럼, 칸반 등을 이용하여 조직의 소프트웨어 개발/운영을 진행하세요"/>
+        <meta property="og:image" content="http://www.bomz.app/images/og_site.png"/>
+        <meta property="og:url" content="https://www.bomz.app"/>
       </head>
       <body>
         <Header />
