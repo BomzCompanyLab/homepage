@@ -5,6 +5,8 @@ export default async function middleware (req: NextRequest) {
     const url = req.nextUrl.pathname;
 
     if( url === '/')    return;
+    if( url === '/sitemap.xml' )    return;
+    if( url === '/robots.txt' ) return;
 
     if( !menus.find(v=> v.url === url) ){
         // 404 페이지일 경우 첫화면으로 이동

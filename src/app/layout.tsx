@@ -9,30 +9,30 @@ export const metadata: Metadata = {
   applicationName: "봄보라 | BOMBora",
   authors: [{name: "BOMZ Company"}],
   creator: "BOMZ Company",
-  robots: "index, nofollow",
+  robots: "index,follow",
   keywords: "bomz, bombora, kanban, agile, scrum, backlog, 봄즈, 봄보라, 칸반, 애자일, 스크럼, 백로그, 칸반보드, 애자일보드",
-  icons: { icon: "/favicon/favicon-16x16.png", apple: "/favicon/favicon-16x16.png"}
+  icons: { icon: "https://www.bomz.app/favicon/favicon-16x16.png", apple: "https://www.bomz.app/favicon/favicon-16x16.png"}
 };
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
   return (
     <html lang="kr">
       <head>
-        <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png"/>
-        <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png"/>
-        <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png"/>
-        <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png"/>
-        <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png"/>
-        <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png"/>
-        <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png"/>
-        <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png"/>
-        <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
+        <link rel="apple-touch-icon" sizes="57x57" href="https://www.bomz.app/favicon/apple-icon-57x57.png"/>
+        <link rel="apple-touch-icon" sizes="60x60" href="https://www.bomz.app/favicon/apple-icon-60x60.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="https://www.bomz.app/favicon/apple-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="https://www.bomz.app/favicon/apple-icon-76x76.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="https://www.bomz.app/favicon/apple-icon-114x114.png"/>
+        <link rel="apple-touch-icon" sizes="120x120" href="https://www.bomz.app/favicon/apple-icon-120x120.png"/>
+        <link rel="apple-touch-icon" sizes="144x144" href="https://www.bomz.app/favicon/apple-icon-144x144.png"/>
+        <link rel="apple-touch-icon" sizes="152x152" href="https://www.bomz.app/favicon/apple-icon-152x152.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://www.bomz.app/favicon/apple-icon-180x180.png"/>
+        <link rel="icon" type="image/png" sizes="192x192"  href="https://www.bomz.app/favicon/android-icon-192x192.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://www.bomz.app/favicon/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="96x96" href="https://www.bomz.app/favicon/favicon-96x96.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="https://www.bomz.app/favicon/favicon-16x16.png"/>
         <meta name="msapplication-TileColor" content="#ffffff"/>
-        <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png"/>
+        <meta name="msapplication-TileImage" content="https://www.bomz.app/favicon/ms-icon-144x144.png"/>
         <meta name="theme-color" content="#ffffff"/>
         {/* Naver search meta tag */}
         <meta name="naver-site-verification" content="08bcbb4c977c416b81096aa714885cd3b3fd38cc" />
