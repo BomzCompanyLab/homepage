@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Script from "next/script";
+
 import "./css/globals.css";
 import Header from "./header";
 import Footer from "./footer";
@@ -44,6 +46,20 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         <meta property="og:description" content="애자일 팀을 위한 차별화된 스크럼, 칸반 등을 이용하여 조직의 소프트웨어 개발/운영을 진행하세요"/>
         <meta property="og:image" content="http://www.bomz.app/images/og_site.png"/>
         <meta property="og:url" content="https://www.bomz.app"/>
+
+        {/* Google tag (gtag.js) */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-395996998" />
+        <Script 
+          id="google-ads"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(...args) { window.dataLayer.push(args); }
+              gtag('js', new Date());
+              gtag('config', 'AW-395996998');
+            `,
+          }}
+        />
       </head>
       <body>
         <Header />
