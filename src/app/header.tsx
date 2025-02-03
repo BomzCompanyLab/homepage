@@ -2,8 +2,8 @@ import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 
-import menus from "./menus";
-import './css/header.css';
+import menus from "@/app/menus";
+import '@/app/css/header.css';
 
 import imgLogo from '/public/images/logo.png';
 
