@@ -72,7 +72,7 @@ const MainPage = () => {
               </section>
             </div>
           </article>
-          <article className="w50p">
+          <article className="w50p m-mt40p">
             <Image src={imgMainAgile} alt="AGILE" title="AGILE"/>
           </article>
         </div>
@@ -182,7 +182,7 @@ const MainPage = () => {
                   <Image src={imgMainStep4Icon1} className="summery" alt="BOMBORA Step4-1" title="BOMBORA Step4-1"/>
                   <Image src={imgMainStep4Icon2} className="summery" alt="BOMBORA Step4-2" title="BOMBORA Step4-2"/>
                   <Image src={imgMainStep4Icon3} className="summery" alt="BOMBORA Step4-3" title="BOMBORA Step4-3"/>
-                  <Image src={imgMainStep4Icon4} className="summery" alt="BOMBORA Step4-4" title="BOMBORA Step4-4"/>
+                  <Image src={imgMainStep4Icon4} className="summery m-hide" alt="BOMBORA Step4-4" title="BOMBORA Step4-4"/>
                   <Image src={imgMainStep4Icon5} className="summery m-hide" alt="BOMBORA Step4-5" title="BOMBORA Step4-5"/>
                   <Image src={imgMainStep4Icon6} className="summery m-hide" alt="BOMBORA Step4-6" title="BOMBORA Step4-6"/>
                 </section>
@@ -190,13 +190,13 @@ const MainPage = () => {
                   <Image src={imgMainStep4Icon7} className="summery" alt="BOMBORA Step4-7" title="BOMBORA Step4-7"/>
                   <Image src={imgMainStep4Icon8} className="summery" alt="BOMBORA Step4-8" title="BOMBORA Step4-8"/>
                   <Image src={imgMainStep4Icon9} className="summery" alt="BOMBORA Step4-9" title="BOMBORA Step4-9"/>
-                  <Image src={imgMainStep4Icon10} className="summery" alt="BOMBORA Step4-10" title="BOMBORA Step4-10"/>
+                  <Image src={imgMainStep4Icon10} className="summery m-hide" alt="BOMBORA Step4-10" title="BOMBORA Step4-10"/>
                   <Image src={imgMainStep4Icon11} className="summery m-hide" alt="BOMBORA Step4-11" title="BOMBORA Step4-11"/>
                   <Image src={imgMainStep4Icon12} className="summery m-hide" alt="BOMBORA Step4-12" title="BOMBORA Step4-12"/>
                 </section>
               </div>
               <div className="w40p text-right m-text-center">
-                <Image src={imgMainOnline} className="summery" alt="Custom Board" title="Custom Board"/>
+                <Image src={imgMainOnline} alt="Custom Board" title="Custom Board"/>
               </div>
             </section>
             
