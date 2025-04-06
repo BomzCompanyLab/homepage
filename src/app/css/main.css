@@ -155,7 +155,7 @@ div.main .step5 div.price-plan section.details ul li h4{
 
 
 @media (max-width: 1500px){
-  img:not(.summery) { width: 100%; }
+  img:not(.summery) { width: 100%; height: auto; }
 
   div.main { padding-top: 0px; }
 

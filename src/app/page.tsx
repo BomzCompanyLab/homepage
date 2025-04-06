@@ -11,7 +11,9 @@ import imgMainAgile from "/public/images/main_agile.png";
 import imgMainBoard1 from "/public/images/main_board_1.png";
 import imgMainBoard2 from "/public/images/main_board_2.png";
 import imgMainBoard3 from "/public/images/main_board_3.png";
+import imgMainIssue from "/public/images/main_issue.png";
 import imgMainStr from "/public/images/main_str.png";
+import imgMainOnline from "/public/images/main_online.png";
 import imgMainCustom from "/public/images/main_custom.png";
 import imgMainMessenger from "/public/images/main_messenger.png";
 import imgMainStep4Icon1 from "/public/images/main_step4_icon1.png";
@@ -26,7 +28,6 @@ import imgMainStep4Icon9 from "/public/images/main_step4_icon9.png";
 import imgMainStep4Icon10 from "/public/images/main_step4_icon10.png";
 import imgMainStep4Icon11 from "/public/images/main_step4_icon11.png";
 import imgMainStep4Icon12 from "/public/images/main_step4_icon12.png";
-import imgMainBottom from "/public/images/main_bottom.png";
 
 const MainPage = () => {
   return (
@@ -72,7 +73,7 @@ const MainPage = () => {
             </div>
           </article>
           <article className="w50p">
-            <Image src={imgMainAgile} className="agile" alt="AGILE" title="AGILE"/>
+            <Image src={imgMainAgile} alt="AGILE" title="AGILE"/>
           </article>
         </div>
       </section>
@@ -82,11 +83,11 @@ const MainPage = () => {
         <article className="flex-center content">
           <div className="box flex-start">
             <section className="w40p">
-              <h1 className="m-inline">이슈 추적과 이력 관리 </h1>
-              <h1 className="m-inline">팀원간의 업무 할당을 통해 </h1>
-              <h1 className="m-inline">프로젝트를 진행하세요</h1>
+              <Image src={imgMainIssue} alt="AGILE" title="AGILE"/>
             </section>
             <section className="w60p m-mt60">
+              <h1 className="m-inline">이슈 추적과 이력 관리 </h1>
+              <h1 className="m-inline" style={{marginBottom:'60px'}}>팀원간의 업무 할당을 통해 프로젝트를 진행하세요</h1>
               <h3>소프트웨어 개발 협업을 좀 더 효율적 진행하세요</h3>
               <h3 style={{marginTop:'14px'}}>신규 프로젝트 개발부터 기존 프로젝트의 유지보수까지 여러분의 팀에 맞는 방법을 선택하여 주기적인</h3>
               <h3>배포를 수행하거나 CS를 통해 이슈가 발생할 때마다 적절한 담당자에게 할당하세요</h3>
@@ -107,7 +108,7 @@ const MainPage = () => {
 
           <section className="flex-start step3-1">
             <article className="board">
-              <div className="img">
+              <div>
                 <Image src={imgMainBoard1} alt="BOARD1" title="BOARD1"/>
               </div>
               <h3>단순 구조 보드</h3>
@@ -115,7 +116,7 @@ const MainPage = () => {
             </article>
 
             <article className="board">
-              <div className="img">
+              <div>
                 <Image src={imgMainBoard2} alt="BOARD2" title="BOARD2"/>
               </div>
               <h3>2단 구조 보드</h3>
@@ -123,7 +124,7 @@ const MainPage = () => {
             </article>
 
             <article className="board">
-              <div className="img">
+              <div>
                 <Image src={imgMainBoard3} alt="BOARD3" title="BOARD3"/>
               </div>
               <h3>3단 구조 보드</h3>
@@ -175,22 +176,30 @@ const MainPage = () => {
             <h3>팀의 업무 방식에 맞게 보드를 상세하게 구성하세요</h3>
             <h3>각각의 업무 카드별로 이슈를 추가할 수 있고 의견을 등록할 수도 있어요</h3>
             <h3>모든 업무의 처리 현황은 이력이 저장되어 언제든 확인할 수 있습니다</h3>
-            <section className="icons m-mt60">
-              <Image src={imgMainStep4Icon1} className="summery" alt="BOMBORA Step4-1" title="BOMBORA Step4-1"/>
-              <Image src={imgMainStep4Icon2} className="summery" alt="BOMBORA Step4-2" title="BOMBORA Step4-2"/>
-              <Image src={imgMainStep4Icon3} className="summery" alt="BOMBORA Step4-3" title="BOMBORA Step4-3"/>
-              <Image src={imgMainStep4Icon4} className="summery" alt="BOMBORA Step4-4" title="BOMBORA Step4-4"/>
-              <Image src={imgMainStep4Icon5} className="summery" alt="BOMBORA Step4-5" title="BOMBORA Step4-5"/>
-              <Image src={imgMainStep4Icon6} className="summery" alt="BOMBORA Step4-6" title="BOMBORA Step4-6"/>
+            <section className="box flex-start">
+              <div className="w60p">
+                <section className="icons m-mt60">
+                  <Image src={imgMainStep4Icon1} className="summery" alt="BOMBORA Step4-1" title="BOMBORA Step4-1"/>
+                  <Image src={imgMainStep4Icon2} className="summery" alt="BOMBORA Step4-2" title="BOMBORA Step4-2"/>
+                  <Image src={imgMainStep4Icon3} className="summery" alt="BOMBORA Step4-3" title="BOMBORA Step4-3"/>
+                  <Image src={imgMainStep4Icon4} className="summery" alt="BOMBORA Step4-4" title="BOMBORA Step4-4"/>
+                  <Image src={imgMainStep4Icon5} className="summery m-hide" alt="BOMBORA Step4-5" title="BOMBORA Step4-5"/>
+                  <Image src={imgMainStep4Icon6} className="summery m-hide" alt="BOMBORA Step4-6" title="BOMBORA Step4-6"/>
+                </section>
+                <section className="icons">            
+                  <Image src={imgMainStep4Icon7} className="summery" alt="BOMBORA Step4-7" title="BOMBORA Step4-7"/>
+                  <Image src={imgMainStep4Icon8} className="summery" alt="BOMBORA Step4-8" title="BOMBORA Step4-8"/>
+                  <Image src={imgMainStep4Icon9} className="summery" alt="BOMBORA Step4-9" title="BOMBORA Step4-9"/>
+                  <Image src={imgMainStep4Icon10} className="summery" alt="BOMBORA Step4-10" title="BOMBORA Step4-10"/>
+                  <Image src={imgMainStep4Icon11} className="summery m-hide" alt="BOMBORA Step4-11" title="BOMBORA Step4-11"/>
+                  <Image src={imgMainStep4Icon12} className="summery m-hide" alt="BOMBORA Step4-12" title="BOMBORA Step4-12"/>
+                </section>
+              </div>
+              <div className="w40p text-right m-text-center">
+                <Image src={imgMainOnline} className="summery" alt="Custom Board" title="Custom Board"/>
+              </div>
             </section>
-            <section className="icons">            
-              <Image src={imgMainStep4Icon7} className="summery" alt="BOMBORA Step4-7" title="BOMBORA Step4-7"/>
-              <Image src={imgMainStep4Icon8} className="summery" alt="BOMBORA Step4-8" title="BOMBORA Step4-8"/>
-              <Image src={imgMainStep4Icon9} className="summery" alt="BOMBORA Step4-9" title="BOMBORA Step4-9"/>
-              <Image src={imgMainStep4Icon10} className="summery" alt="BOMBORA Step4-10" title="BOMBORA Step4-10"/>
-              <Image src={imgMainStep4Icon11} className="summery" alt="BOMBORA Step4-11" title="BOMBORA Step4-11"/>
-              <Image src={imgMainStep4Icon12} className="summery" alt="BOMBORA Step4-12" title="BOMBORA Step4-12"/>
-            </section>
+            
           </div>
         </article>
       </section>
@@ -236,9 +245,6 @@ const MainPage = () => {
               </section>
             </div>
           </article>
-        </div>
-        <div className="box" style={{marginTop:'140px'}}>
-          <Image src={imgMainBottom} alt="BOMBORA Bottom" title="BOMBORA Bottom"/>
         </div>
       </section>
     </div>

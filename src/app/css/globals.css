@@ -64,7 +64,7 @@ nav button.bombora-link{
 }
 
 @media (max-width: 1500px){
-  h1 {  font-size: 20px; margin: 10px 0px; text-align: center; font-family: 'NanumSquareRoundExtraBold', 'sans-serif'}
+  h1 {  font-size: 20px; margin: 10px 0px; text-align: center; }
   h2 {  font-size: 17px; margin: 8px 0px; text-align: center; line-height: 150%;}
   h3 {  font-size: 15px; margin: 5px 0px; text-align: center; line-height: 134%;}
   h4 {  font-size: 12px; margin: 2px 0px; text-align: center; line-height: 120%;}
@@ -84,5 +84,13 @@ nav button.bombora-link{
   nav { text-align: center; }
   nav button.bombora-link{ margin-top: 20px; }
 
-  .m-inline{ display: inline; }
+  .m-text-center{
+    text-align: center !important;
+  }
+  
+  .m-hide {
+    display: none !important;
+  }
+
+  .m-inline{  }
 }
