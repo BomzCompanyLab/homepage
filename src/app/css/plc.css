@@ -36,7 +36,7 @@ div.plc .step2 .pre h4:last-child{
     margin-bottom: 0px;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1024px){
 
     div.plc .step1 {
         margin-top: 70px;

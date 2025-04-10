@@ -28,7 +28,7 @@ header button.bombora-link{
   cursor: pointer;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1024px){
   header { 
     width: calc(100% - 16px);
     padding: 0px;

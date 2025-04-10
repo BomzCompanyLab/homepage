@@ -73,7 +73,7 @@ div.prc .step2 .price-plan article.details ul li h4{
 
 
 
-@media (max-width: 1500px){
+@media (max-width: 1024px){
     div.prc .step1 {
         margin-top: 70px;
     }

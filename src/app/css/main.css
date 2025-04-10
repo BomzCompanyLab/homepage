@@ -70,8 +70,8 @@ div.main .step3 section.step3-1 article.board:last-child div.img{
 }
 
 div.main .step3 section.step3-1 article.board:nth-child(2){
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 div.main .step3 section.step3-1 article.board h4.desc{
@@ -86,7 +86,7 @@ div.main .step3 section.step3-2 article.board {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 180px;
+  margin-left: 40px;
 }
 
 div.main .step3 section.step3-2 div:not(.summery , :first-child) {
@@ -111,10 +111,6 @@ div.main .step4 article.content section.icons{
 
 div.main .step5{
   margin-top : 180px;
-}
-
-div.main .step5 div.price-plan{
-  width: 50%;
 }
 
 div.main .step5 div.price-plan section{
@@ -154,7 +150,7 @@ div.main .step5 div.price-plan section.details ul li h4{
 }
 
 
-@media (max-width: 1500px){
+@media (max-width: 1024px){
   img:not(.summery) { width: 100%; height: auto; }
 
   div.main { padding-top: 0px; }

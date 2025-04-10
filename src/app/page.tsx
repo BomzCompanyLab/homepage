@@ -19,12 +19,12 @@ import imgMainMessenger from "/public/images/main_messenger.png";
 import imgMainStep4Icon1 from "/public/images/main_step4_icon1.png";
 import imgMainStep4Icon2 from "/public/images/main_step4_icon2.png";
 import imgMainStep4Icon3 from "/public/images/main_step4_icon3.png";
-import imgMainStep4Icon4 from "/public/images/main_step4_icon4.png";
-import imgMainStep4Icon5 from "/public/images/main_step4_icon5.png";
+// import imgMainStep4Icon4 from "/public/images/main_step4_icon4.png";
+// import imgMainStep4Icon5 from "/public/images/main_step4_icon5.png";
 import imgMainStep4Icon6 from "/public/images/main_step4_icon6.png";
 import imgMainStep4Icon7 from "/public/images/main_step4_icon7.png";
-import imgMainStep4Icon8 from "/public/images/main_step4_icon8.png";
-import imgMainStep4Icon9 from "/public/images/main_step4_icon9.png";
+// import imgMainStep4Icon8 from "/public/images/main_step4_icon8.png";
+// import imgMainStep4Icon9 from "/public/images/main_step4_icon9.png";
 import imgMainStep4Icon10 from "/public/images/main_step4_icon10.png";
 import imgMainStep4Icon11 from "/public/images/main_step4_icon11.png";
 import imgMainStep4Icon12 from "/public/images/main_step4_icon12.png";
@@ -34,7 +34,7 @@ const MainPage = () => {
     <div className="main">
       <section className="step step1">
         <div className="box flex-center">
-          <article className="w50p">
+          <article className="w60p">
             <h1>소프트웨어 업무 협업도구.</h1>
             <h1>애자일 조직을 위한. 프로젝트 관리를 위한.</h1>
             <h3 style={{marginTop:'36px'}}>모든 회사와 팀을 위한 협업도구로 이슈를 추적하고 스프린트 계획을 적용해보세요</h3>
@@ -50,7 +50,7 @@ const MainPage = () => {
                 <Image src={imgMainScrumIcon} className="summery" alt="SCRUM" title="SCRUM"/>
                 <article>
                   <h3>SCRUM</h3>
-                  <h4>점진적 개발방법론</h4>
+                  <h4>점진적 개발</h4>
                 </article>
               </section>
 
@@ -58,7 +58,7 @@ const MainPage = () => {
                 <Image src={imgMainKanbanIcon} className="summery" alt="KANBAN" title="KANBAN"/>
                 <article>
                   <h3>KANBAN</h3>
-                  <h4>칸반보드 업무 시각화</h4>
+                  <h4>업무 시각화</h4>
                 </article> 
               </section>
 
@@ -66,12 +66,12 @@ const MainPage = () => {
                 <Image src={imgMainBufferIcon} className="summery" alt="BUFFER" title="BUFFER"/>
                 <article>
                   <h3>BUFFER</h3>
-                  <h4>단순한 업무 분담</h4>
+                  <h4>단순 분담</h4>
                 </article> 
               </section>
             </div>
           </article>
-          <article className="w50p m-mt40p">
+          <article className="w40p m-mt40p v-align-end">
             <Image src={imgMainAgile} alt="AGILE" title="AGILE"/>
           </article>
         </div>
@@ -86,12 +86,11 @@ const MainPage = () => {
             </section>
             <section className="w60p m-mt60">
               <h1 className="m-inline">이슈 추적과 이력 관리 </h1>
-              <h1 className="m-inline" style={{marginBottom:'60px'}}>팀원간의 업무 할당을 통해 프로젝트를 진행하세요</h1>
+              <h2 className="m-inline" style={{marginBottom:'60px'}}>팀원간의 업무 할당으로 프로젝트를 진행하세요</h2>
               <h3>소프트웨어 개발 협업을 좀 더 효율적 진행하세요</h3>
-              <h3 style={{marginTop:'14px'}}>신규 프로젝트 개발부터 기존 프로젝트의 유지보수까지 여러분의 팀에 맞는 방법을 선택하여 주기적인 배포를 수행하거나 CS를 통해 이슈가 발생할 때마다 적절한 담당자에게 할당하세요</h3>
+              <h3 style={{marginTop:'14px'}}>신규 개발부터 유지보수까지 팀에 맞는 방법으로로 주기적인 배포를 수행하거나 CS를 통해 이슈 발생 시 적절한 담당자에게 할당하세요</h3>
               <h3 style={{marginTop:'14px'}}>담당자를 직접 지정해서 이슈를 할당할 수도 있고 대기 상태의 이슈를 스스로 가져와서 진행할 수도 있습니다</h3>
               <h3 style={{marginTop:'14px'}}>모든건 팀의 업무 방식에 맞게 진행하세요</h3>
-              <h3 style={{marginTop:'14px'}}>봄즈의 봄보라 솔루션이 모든 기능을 제공합니다</h3>
             </section>
           </div>
         </article>
@@ -175,18 +174,18 @@ const MainPage = () => {
                 <section className="icons m-mt60">
                   <Image src={imgMainStep4Icon1} className="summery" alt="BOMBORA Step4-1" title="BOMBORA Step4-1"/>
                   <Image src={imgMainStep4Icon2} className="summery" alt="BOMBORA Step4-2" title="BOMBORA Step4-2"/>
-                  <Image src={imgMainStep4Icon3} className="summery" alt="BOMBORA Step4-3" title="BOMBORA Step4-3"/>
-                  <Image src={imgMainStep4Icon4} className="summery m-hide" alt="BOMBORA Step4-4" title="BOMBORA Step4-4"/>
-                  <Image src={imgMainStep4Icon5} className="summery m-hide" alt="BOMBORA Step4-5" title="BOMBORA Step4-5"/>
-                  <Image src={imgMainStep4Icon6} className="summery m-hide" alt="BOMBORA Step4-6" title="BOMBORA Step4-6"/>
+                  <Image src={imgMainStep4Icon3} className="summery mm-hide" alt="BOMBORA Step4-3" title="BOMBORA Step4-3"/>
+                  {/* <Image src={imgMainStep4Icon4} className="summery m-hide" alt="BOMBORA Step4-4" title="BOMBORA Step4-4"/> */}
+                  {/* <Image src={imgMainStep4Icon5} className="summery m-hide" alt="BOMBORA Step4-5" title="BOMBORA Step4-5"/> */}
+                  <Image src={imgMainStep4Icon6} className="summery ms-hide" alt="BOMBORA Step4-6" title="BOMBORA Step4-6"/>
                 </section>
                 <section className="icons">            
                   <Image src={imgMainStep4Icon7} className="summery" alt="BOMBORA Step4-7" title="BOMBORA Step4-7"/>
-                  <Image src={imgMainStep4Icon8} className="summery" alt="BOMBORA Step4-8" title="BOMBORA Step4-8"/>
-                  <Image src={imgMainStep4Icon9} className="summery" alt="BOMBORA Step4-9" title="BOMBORA Step4-9"/>
-                  <Image src={imgMainStep4Icon10} className="summery m-hide" alt="BOMBORA Step4-10" title="BOMBORA Step4-10"/>
-                  <Image src={imgMainStep4Icon11} className="summery m-hide" alt="BOMBORA Step4-11" title="BOMBORA Step4-11"/>
-                  <Image src={imgMainStep4Icon12} className="summery m-hide" alt="BOMBORA Step4-12" title="BOMBORA Step4-12"/>
+                  {/* <Image src={imgMainStep4Icon8} className="summery" alt="BOMBORA Step4-8" title="BOMBORA Step4-8"/> */}
+                  {/* <Image src={imgMainStep4Icon9} className="summery" alt="BOMBORA Step4-9" title="BOMBORA Step4-9"/> */}
+                  <Image src={imgMainStep4Icon10} className="summery" alt="BOMBORA Step4-10" title="BOMBORA Step4-10"/>
+                  <Image src={imgMainStep4Icon11} className="summery mm-hide" alt="BOMBORA Step4-11" title="BOMBORA Step4-11"/>
+                  <Image src={imgMainStep4Icon12} className="summery ms-hide" alt="BOMBORA Step4-12" title="BOMBORA Step4-12"/>
                 </section>
               </div>
               <div className="w40p text-right m-text-center">
@@ -200,7 +199,7 @@ const MainPage = () => {
 
       <section className="step step5">
         <div className="box flex-center">
-          <article className="w50p" style={{paddingRight:'30px'}}>
+          <article className="w50p-20px">
             <h1 className="m-mb40">지금 바로 무료로 이용하세요</h1>
             <h3 style={{marginTop: '50px'}} className="m-inline">봄즈의 봄보라 솔루션은 현재 베타 서비스 기간으로 무료 기능만 이용하실 수 있습니다</h3>
             <h5></h5>

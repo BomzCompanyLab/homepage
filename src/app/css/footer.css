@@ -32,7 +32,7 @@ footer section.between article div h4.sep{
   margin-right: 20px;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1024px){
   footer section.between{
     display: contents;
   }

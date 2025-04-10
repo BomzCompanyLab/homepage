@@ -41,6 +41,10 @@ a{
 .w40p{  width: 40%; }
 .w50p{  width: 50%; }
 .w60p{  width: 60%; }
+.w50p-20px{
+  width: calc(50% - 20px);
+  margin-right: 20px;
+}
 
 .text-right{
   text-align: right;
@@ -59,11 +63,16 @@ nav button.bombora-link{
 }
 
 .box, header{
-  width: 1500px;
+  width: 1024px;
   margin: 0px auto;
 }
 
-@media (max-width: 1500px){
+.v-align-end {
+  display:flex;
+  align-items:end
+}
+
+@media (max-width: 1024px){
   h1 {  font-size: 20px; margin: 10px 0px; text-align: center; }
   h2 {  font-size: 17px; margin: 8px 0px; text-align: center; line-height: 150%;}
   h3 {  font-size: 15px; margin: 5px 0px; text-align: center; line-height: 134%;}
@@ -78,6 +87,11 @@ nav button.bombora-link{
   .w50p,
   .w60p{ width: 100%; }
 
+  .w50p-20px{
+    width: 100%;
+    margin-right: 0px;
+  }
+
   .flex-center,
   .flex-start{ display: block; }
 
@@ -90,9 +104,18 @@ nav button.bombora-link{
   .m-mt40p{
     margin-top: 40px;
   }
-  .m-hide {
-    display: none !important;
-  }
 
   .m-inline{  }
+}
+
+@media (max-width: 540px){
+  .mm-hide {
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px){
+  .ms-hide {
+    display: none !important;
+  }
 }
