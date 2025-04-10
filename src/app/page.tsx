@@ -132,7 +132,7 @@ const MainPage = () => {
             <Image src={imgMainStr} alt="BOMBORA Structure" title="BOMBORA Structure"/>
             <article className="board">
               <div>
-                <h1>애자일 프로젝트 관리를 위한 봄보라.</h1>
+                <h1>애자일을 위한 봄보라.</h1>
               </div>
               <div>
                 <h3 className="m-inline">봄보라는 소프트웨어 개발과 기획, QA 팀들의 협업을 위한 솔루션으로 업무 계획과 진행 상태, 버그 및 이슈 추적 등 프로젝트 관리에 최적화된 기능을 제공합니다</h3>
